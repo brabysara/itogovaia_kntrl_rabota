@@ -9,10 +9,11 @@ string[] all_mas = new string []{"idsrew","-23","546345",vvod};
 
 
 
-
+Console.Write("[" ); 
 for (int i = 0; i < all_mas.Length; i++)
 {
 
 
-   Console.Write($"{all_mas[i]}" ); 
+   Console.Write(all_mas[i]+","+" "); 
 }
+Console.Write("]" ); 
