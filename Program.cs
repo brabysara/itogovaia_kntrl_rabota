@@ -3,13 +3,13 @@
   либо задать на старте выполнения алгоритма. 
 При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами. */
 
-// задаём переменные 
+// 1 задаём переменные 
 Console.WriteLine("Впишите любое количество символов");
 string vvod = Console.ReadLine();
 string[] all_mas = new string []{"idsrew","-23","546345",vvod};
 string[] new_mas = new string [all_mas.Length];
 int zamen = 0 ;
-//Проверка и перенос данных масисва 
+// 2 Проверка и перенос данных масисва 
 for (int z = 0; z < all_mas.Length; z++)
 {
     if(all_mas[z].Length <= 3)
@@ -19,7 +19,7 @@ for (int z = 0; z < all_mas.Length; z++)
     } 
     
 }
-// Вывод первоначальных данных в консоль
+// 3 Вывод первоначальных данных в консоль
 Console.Write("[" ); 
 for (int i = 0; i < all_mas.Length; i++)
 {
@@ -27,7 +27,7 @@ for (int i = 0; i < all_mas.Length; i++)
 }
 Console.Write("] -> [  " ); 
  
-// Вывод проверенных данных в консоль
+// 4 Вывод проверенных данных в консоль
 for (int gg = 0; gg < new_mas.Length; gg++)
 {   
     Console.Write(new_mas[gg]+" "); 
