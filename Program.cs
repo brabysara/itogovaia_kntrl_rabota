@@ -12,9 +12,10 @@ for (int z = 0; z < all_mas.Length; z++)
 {
     if(all_mas[z].Length <= 3)
     {
-        Console.WriteLine(all_mas[z]);|
+        Console.WriteLine(all_mas[z]);
         new_mas[zamen] = all_mas[z];
         zamen++;
+        Console.WriteLine(new_mas[zamen]);
     } 
     //else;
 
