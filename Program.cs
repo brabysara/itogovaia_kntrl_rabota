@@ -6,7 +6,7 @@
 // задаём переменные 
 string vvod = Console.ReadLine();
 string[] all_mas = new string []{"idsrew","-23","546345",vvod};
-string[] new_mas = new string []{};
+string[] new_mas = new string [4];
 int zamen = 0 ;
 for (int z = 0; z < all_mas.Length; z++)
 {
