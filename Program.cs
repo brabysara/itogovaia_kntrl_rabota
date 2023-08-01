@@ -17,10 +17,6 @@ for (int z = 0; z < all_mas.Length; z++)
         zamen++;
         Console.WriteLine(new_mas[zamen]);
     } 
-    //else;
-
-
-
 }
 
 
