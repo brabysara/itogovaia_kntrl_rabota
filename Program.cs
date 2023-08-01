@@ -19,8 +19,6 @@ for (int z = 0; z < all_mas.Length; z++)
     } 
     
 }
-Console.Write(new_mas[zamen]); 
-
 // Вывод первоначальных данных в консоль
 Console.Write("[" ); 
 for (int i = 0; i < all_mas.Length; i++)
